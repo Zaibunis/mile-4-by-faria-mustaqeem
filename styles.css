@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(228, 16, 51);
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+form{
+   
+    margin-left: 400px;
+    margin-right: 150px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+   
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(238, 150, 164);
+}
+
+#resumeForm fieldset{
+    border: 2px solid rgb(238, 150, 164);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#resumeForm label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+#resumeForm input,textarea{
+    width: 400px;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #d16d7f;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.resume-output {
+    background-color: #fddde6;
+    color: #2c3e50;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #ee96a4;
+    margin-top: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Fieldset Styling for Education, Experience, and Skills */
+fieldset {
+    border: 2px solid #ee96a4; /* Soft pink border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin-bottom: 20px; /* Space between fieldsets */
+    background-color: #fddde6; /* Light pink background */
+    max-width: 50%; /* Reduce the width of the fieldset */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Label Styling */
+label {
+    display: block; /* Make labels block elements */
+    margin-top: 10px; /* Space above label */
+    color: #2c3e50; /* Dark gray for contrast */
+    font-weight: bold; /* Bold labels for clarity */
+}
+
+/* Input and Textarea Styling */
+textarea {
+    width: 100%; /* Reduced width for the textarea */
+    padding: 10px; /* Inner padding for text area */
+    margin-top: 5px; /* Space above textarea */
+    border: 1px solid #d16d7f; /* Medium pink border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fdf2f5; /* Lightest pink background */
+    box-sizing: border-box;
+    color: #2c3e50; /* Dark gray text for readability */
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height */
+}
+
+/* Focus Effect for Input and Textarea */
+textarea:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #c0392b; /* Darker pink border on focus */
+    box-shadow: 0 0 5px rgba(192, 57, 43, 0.3); /* Soft pink shadow */
+}
+
+/* Button Styling */
+button {
+    background-color: #d16d7f; /* Soft but contrasting pink for the button */
+    color: #ffffff; /* White text for clarity */
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    width: 10%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #c0392b; /* Darker pink on hover */
+}
+
+#profilePicturePreview {
+    margin-top: 20px;
+    text-align: center;
+}

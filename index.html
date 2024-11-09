@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Editable Resume Builder By Faria Mustaqeem💗</title>
+</head>
+<body>
+    <h1><b>Editable Resume Builder By Faria Mustaqeem💗</b></h1>
+    
+    <header>
+        <h2 style="display: flex; justify-content: center; align-items: center; font-weight: bolder; font-size: xx-large; color: antiquewhite;">Personal Information: </h2>
+        </header>
+        <hr style="color: white;"/>
+<br />
+    <form id="resumeForm">
+        <fieldset>
+    
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone: </label>
+      <input type="phone" id="phone" name="phone" required><br>
+              
+      <label for="profilePicture">Profile Picture: </label>
+      <input type="file" id="profilePicture" name="profilePicture" accept="image/*"><br>
+
+      </fieldset>
+      <br/>
+      </form>
+      
+      <h2 style="display: flex; justify-content: center; align-items: center; font-weight: bolder; font-size: xx-large; color: antiquewhite;">Qualification & Experience</h2>
+    <hr style="color: white;"/>
+<br />
+
+</fieldset>
+
+<fieldset>
+ 
+  <label for="education">Education: </label>
+  <textarea
+    id="education"
+    name="education"
+    rows="4"
+    required
+  ></textarea>
+  <br />
+</fieldset>
+
+<fieldset>
+ 
+  <label for="experience">Experience: </label>
+  <textarea
+    id="experience"
+    name="experience"
+    rows="4"
+    required
+  ></textarea>
+  <br />
+</fieldset>
+
+<fieldset>
+ 
+  <label for="skills">Skills: </label>
+  <textarea id="skills" name="skills" rows="4" required></textarea>
+  <br />
+</fieldset>
+
+<button type="button" id="generateResume">Generate Resume</button>
+
+</form>
+
+    <!-- Section to Display Generated Resume -->
+    <div id="resumeOutput" class="resume-output"></div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
